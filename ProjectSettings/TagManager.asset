@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - EndMission
+  - PlayerUI
+  - laptop
+  - Hammer
+  - Menu
+  - Eye
+  - Belly
+  - Hand
+  - MainCharacter
+  - Foot
+  - Speak1
+  - handdoor
+  - eyedoor
+  - footdoor
+  - bellydoor
+  - Key
+  - Medicine
+  - Poor
+  - Money
+  - Gnd
+  - Gheibat
+  - Hizi
+  - BadSelf
+  - Lightning
+  - Sowrd
+  - Ground
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Enemy
+  - Ignore
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Outside
+    uniqueID: 2344498299
+    locked: 0
+  - name: Background
+    uniqueID: 903346361
+    locked: 0
+  - name: Interctable
+    uniqueID: 2372380669
+    locked: 0
+  - name: Player
+    uniqueID: 3993218003
+    locked: 0
+  - name: Middleground
+    uniqueID: 2176031989
+    locked: 0
+  - name: Forground
+    uniqueID: 4016949729
+    locked: 0
+  - name: Mask
+    uniqueID: 3011393769
+    locked: 0
+  - name: UI
+    uniqueID: 1229189715
+    locked: 0

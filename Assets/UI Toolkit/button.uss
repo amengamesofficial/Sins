@@ -1,0 +1,222 @@
+.buttons {
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+    top: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    padding-top: 0;
+    -unity-text-align: upper-center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+    flex-shrink: 1;
+    flex-basis: auto;
+    background-color: rgb(223, 208, 184);
+    border-left-color: rgba(34, 40, 49, 0);
+    border-right-color: rgba(34, 40, 49, 0);
+    border-top-color: rgba(34, 40, 49, 0);
+    border-bottom-color: rgba(34, 40, 49, 0);
+}
+
+.continer {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(57, 62, 70);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    -unity-slice-left: 0;
+    -unity-background-scale-mode: scale-and-crop;
+    -unity-slice-top: 0;
+    -unity-slice-right: 0;
+    -unity-slice-bottom: 0;
+}
+
+#unity-radio-button-group__container {
+    flex-direction: row;
+    -unity-text-align: middle-center;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+}
+
+.buttonRadio {
+    -unity-text-align: middle-center;
+    width: 1000px;
+    height: 150px;
+    flex-direction: row;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-left-color: rgb(34, 40, 49);
+    border-right-color: rgb(34, 40, 49);
+    border-top-color: rgb(34, 40, 49);
+    border-bottom-color: rgb(34, 40, 49);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    -unity-font-style: bold;
+    font-size: 40px;
+    margin-top: 15px;
+    background-color: rgb(223, 208, 184);
+}
+
+RadioButton {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+VisualElement {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+Label {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+#unity-checkmark {
+    background-color: rgb(223, 208, 184);
+    -unity-text-align: middle-center;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.unity-radio-button__checkmark-background {
+    background-color: rgb(148, 137, 121);
+    width: 60px;
+    height: 60px;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+    border-bottom-right-radius: 17px;
+    border-bottom-left-radius: 17px;
+}
+
+.unity-base-field:focus {
+}
+
+Label:clicked {
+    color: rgb(0, 0, 0);
+}
+
+VisualElement:clicked {
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    color: rgb(0, 0, 0);
+}
+
+#unity-tracker {
+    background-color: rgb(36, 36, 36);
+    width: auto;
+    -unity-text-align: upper-center;
+    flex-direction: column;
+    flex-grow: 0;
+    display: flex;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+}
+
+#unity-dragger {
+    background-color: rgb(223, 208, 184);
+    width: 40px;
+    height: 40px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-grow: 0;
+    flex-shrink: 1;
+    display: flex;
+    left: 5px;
+    top: -5px;
+    right: 5px;
+    bottom: 5px;
+    align-self: stretch;
+    align-items: stretch;
+}
+
+.unity-slider__label {
+    display: none;
+}
+
+.unity-slider__input {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    flex-direction: row-reverse;
+}
+
+#unity-drag-container {
+    align-self: center;
+    justify-content: center;
+    -unity-text-align: upper-center;
+    flex-grow: 0.5;
+    width: 20px;
+}

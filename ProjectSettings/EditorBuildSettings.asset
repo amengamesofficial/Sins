@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: b8112a4042f9aa845b42f33039eb9ee2
+  - enabled: 1
+    path: Assets/Scenes/LevelChooser.unity
+    guid: 8f466860fcd45dd4a8d16e3d8b6788ff
+  - enabled: 1
+    path: Assets/Scenes/Intro.unity
+    guid: 42786eeaca6f61c4587281f8bf383fa6
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 80aca9b0b0369b940a3a0de2a0f1d8f5
+  - enabled: 1
+    path: Assets/Scenes/EyeScene.unity
+    guid: 4d52b0f7cdc3fe441befb19910047586
+  - enabled: 1
+    path: Assets/Scenes/KindScene.unity
+    guid: 082dec49f238e0245ad51bb564ad2d54
+  - enabled: 1
+    path: Assets/Scenes/PuzzleScene.unity
+    guid: 2642fb0ce32f7044783379064bf306e5
+  - enabled: 1
+    path: Assets/Scenes/LabratoryScene.unity
+    guid: 38669f87591e6da4bad7026bd27baa4e
+  - enabled: 1
+    path: Assets/Scenes/TrainGround.unity
+    guid: d42c88c1ffa5a5a41bab7249ea167744
+  - enabled: 1
+    path: Assets/Scenes/Hizi_Boss.unity
+    guid: 57b9fe483a3ed0c44be05630b1865d48
+  - enabled: 1
+    path: Assets/Scenes/Gheibat_Boss.unity
+    guid: 6f1bba2eb0768214a810a22654ca2d10
+  - enabled: 1
+    path: Assets/Scenes/Main_Boss.unity
+    guid: f846bc7a118314d4cbe33a33d221c6db
+  m_configObjects:
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 6c07bd4063d3316409aefa2eebdb5a48, type: 2}
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 89646d770298daa4da6235e7047ffd1f, type: 2}
+    com.unity.adaptiveperformance.samsung.android.provider_settings: {fileID: 11400000, guid: 7ce177e28e0d76f48acc1af29dfd7860, type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 0329b1bc452454248bfbd2e4f54313a2, type: 2}
