@@ -277,12 +277,10 @@ PrefabInstance:
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].x
       value: 
-      objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
+      objectReference: {fileID: 21300000, guid: d656beca817ee104fa04f0258b18b43e, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].y
-      value: "\u0627\u06CC\u0646 \u0631\u0627 \u06CC\u0627\u0641\u062A\u0645... \u0627\u0628\u0632\u0627\u0631\u06CC
-        \u0628\u0631\u0627\u06CC \u06AF\u0634\u0648\u062F\u0646 \u0628\u0646\u062F
-        \u0646\u06AF\u0627\u0647\u062A."
+      value: "\u062F\u0633\u062A\u0645 ..."
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].x
@@ -290,8 +288,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: d656beca817ee104fa04f0258b18b43e, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].y
-      value: "\u067E\u0633 \u0622\u063A\u0627\u0632 \u06A9\u0646... \u0686\u0634\u0645\u200C\u0647\u0627\u06CC\u0645
-        \u0631\u0627 \u0622\u0632\u0627\u062F \u06A9\u0646."
+      value: "\u0627\u06CC \u06A9\u0627\u0634 ..."
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].x
@@ -2317,12 +2314,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].x
       value: 
-      objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
+      objectReference: {fileID: 21300000, guid: d656beca817ee104fa04f0258b18b43e, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].y
       value: "\u0628\u0631\u0627\u06CC\u062A \u06A9\u0644\u06CC\u062F \u0627\u0648\u0631\u062F\u0647
@@ -3175,8 +3172,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
+      propertyPath: dialogue.Array.data[0].x
+      value: 
+      objectReference: {fileID: 21300000, guid: d656beca817ee104fa04f0258b18b43e, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].y
       value: "\u0627\u06A9\u0646\u0648\u0646 \u0686\u0634\u0645\u0627\u0646\u062A
@@ -3852,7 +3853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1249004047
 Transform:
   m_ObjectHideFlags: 0
@@ -4028,12 +4029,11 @@ PrefabInstance:
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].x
       value: 
-      objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
+      objectReference: {fileID: 21300000, guid: d656beca817ee104fa04f0258b18b43e, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].y
-      value: "\u0627\u06CC\u0646 \u062F\u0633\u062A\u060C \u0627\u0632 \u062F\u0644
-        \u0628\u062E\u0634\u0634 \u0632\u0627\u062F\u0647 \u0634\u062F... \u0627\u06A9\u0646\u0648\u0646
-        \u0633\u0647\u0645 \u062A\u0648\u0633\u062A."
+      value: "\u0627\u06AF\u0647 \u0645\u06CC\u062A\u0648\u0646\u0633\u062A\u0645
+        \u0631\u0627\u0647 \u0628\u0631\u0645 "
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].x
@@ -4041,10 +4041,8 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: d656beca817ee104fa04f0258b18b43e, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].y
-      value: "\u0628\u06AF\u0630\u0627\u0631 \u062F\u0648\u0628\u0627\u0631\u0647
-        \u0628\u062E\u0634\u06CC \u0627\u0632 \u0645\u0646 \u0634\u0648\u062F...
-        \u0634\u0627\u06CC\u062F \u0627\u06CC\u0646\u200C\u0628\u0627\u0631 \u0628\u0631\u0627\u06CC
-        \u06CC\u0627\u0631\u06CC\u060C \u0646\u0647 \u0628\u0631\u0627\u06CC \u06AF\u0631\u0641\u062A\u0646."
+      value: "\u062A\u0645\u0627\u0645 \u062A\u0644\u0627\u0634\u0645 \u0631\u0648
+        \u0645\u06CC\u06A9\u0631\u062F\u0645 \u06A9\u0647..."
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].x
@@ -7399,46 +7397,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.size
-      value: 18
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].x
       value: 
-      objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
+      objectReference: {fileID: 21300000, guid: d656beca817ee104fa04f0258b18b43e, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].y
-      value: "\u062F\u06CC\u062F\u06CC\u061F \u062D\u062A\u06CC \u0631\u0648\u0634\u0646\u0627\u06CC\u06CC
-        \u0647\u0645 \u062A\u0648 \u0631\u0627 \u0646\u067E\u0630\u06CC\u0631\u0641\u062A..."
+      value: "\u0686\u0634\u0645\u0645 ..."
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].x
       value: 
-      objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
+      objectReference: {fileID: 21300000, guid: d656beca817ee104fa04f0258b18b43e, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].y
-      value: "\u0648\u0642\u062A\u06CC \u0646\u06AF\u0627\u0647 \u062A\u06CC\u0631\u0647
-        \u0628\u0627\u0634\u062F\u060C \u0646\u0648\u0631 \u067E\u0633 \u0645\u06CC\u200C\u0632\u0646\u062F."
+      value: "\u0686\u0634\u0645\u0645 \u062E\u06CC\u0644\u06CC \u062F\u0631\u062F
+        \u0645\u06CC\u06A9\u0646\u0647 "
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].x
       value: 
-      objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
+      objectReference: {fileID: 21300000, guid: d656beca817ee104fa04f0258b18b43e, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].y
-      value: "\u0648 \u0627\u06A9\u0646\u0648\u0646 \u062F\u0648\u0628\u0627\u0631\u0647
-        \u062F\u0631 \u062C\u0627\u06CC\u06CC \u0627\u06CC\u0633\u062A\u0627\u062F\u0647\u200C\u0627\u06CC
-        \u06A9\u0647 \u0628\u0627\u0631\u0647\u0627 \u0648 \u0632\u062E\u0645\u200C\u0647\u0627\u06CC\u062A
-        \u0622\u0634\u06A9\u0627\u0631\u0646\u062F."
+      value: "\u0627\u06CC \u06A9\u0627\u0634 ..."
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[3].x
       value: 
-      objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
+      objectReference: {fileID: 21300000, guid: d656beca817ee104fa04f0258b18b43e, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[3].y
-      value: "\u0627\u06CC\u0646 \u0628\u0627\u0631\u0647\u0627\u060C \u0647\u0645\u0627\u0646
-        \u0686\u06CC\u0632\u06CC\u200C\u0627\u0646\u062F \u06A9\u0647 \u062A\u0648
-        \u0631\u0627 \u0628\u0647 \u0627\u06CC\u0646 \u0628\u0646\u062F \u06A9\u0634\u06CC\u062F\u0647\u200C\u0627\u0646\u062F."
+      value: "\u0627\u06CC \u06A9\u0627\u0634 \u0641\u0642\u0637 ..."
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[4].x
@@ -7446,8 +7438,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: d656beca817ee104fa04f0258b18b43e, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[4].y
-      value: "\u0686\u0634\u0645\u200C\u0647\u0627\u06CC\u0645... \u0628\u0627 \u062A\u06CC\u0631
-        \u06A9\u0648\u0631 \u0634\u062F\u0646\u062F \u0648 \u0647\u06CC\u0686 \u0646\u0645\u06CC\u200C\u0628\u06CC\u0646\u0646\u062F."
+      value: "\u0627\u06CC \u06A9\u0627\u0634 \u0641\u0642\u0637 ..."
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[5].x
@@ -7455,8 +7446,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: d656beca817ee104fa04f0258b18b43e, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[5].y
-      value: "\u06CC\u06A9 \u062F\u0633\u062A \u0646\u062F\u0627\u0631\u0645... \u0647\u0631
-        \u06A9\u0627\u0631\u06CC \u0646\u0627\u062A\u0645\u0627\u0645 \u0645\u0627\u0646\u062F\u0647."
+      value: "\u0627\u06CC \u06A9\u0627\u0634 \u0641\u0642\u0637 ..."
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[6].x
