@@ -579,7 +579,7 @@ Transform:
   m_GameObject: {fileID: 173633852}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 55.2, y: 5.59, z: 0}
+  m_LocalPosition: {x: 55.2, y: 4.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -600,7 +600,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.67
+  m_FalloffIntensity: 0.406
   m_Color: {r: 1, g: 0.8096381, b: 0.26981127, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -619,8 +619,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 1.2061, y: -4.7151003, z: 0}
-    m_Extent: {x: 11.0131, y: 9.4892, z: 0}
+    m_Center: {x: 1.2061498, y: -4.7151, z: 0}
+    m_Extent: {x: 7.5120497, y: 5.9892, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -628,7 +628,7 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 4.5
+  m_ShapeLightFalloffSize: 1
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -5.307541, y: -9.703381, z: 0}
@@ -649,7 +649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2768896960884657439, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 0.93
       objectReference: {fileID: 0}
     - target: {fileID: 2768896960884657439, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalScale.y
@@ -657,11 +657,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2768896960884657439, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.1
+      value: -0.07
       objectReference: {fileID: 0}
     - target: {fileID: 2768896960884657439, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.5
+      value: 8.7
       objectReference: {fileID: 0}
     - target: {fileID: 2768896960884657439, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalPosition.z
@@ -749,15 +749,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6064106315275113360, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_Radius
-      value: 4.218275
+      value: 4.84
       objectReference: {fileID: 0}
     - target: {fileID: 6064106315275113360, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_Offset.x
-      value: -0.22102475
+      value: -0.34
       objectReference: {fileID: 0}
     - target: {fileID: 6064106315275113360, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_Offset.y
-      value: 1.863473
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 6328243403761727526, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_Sprite
@@ -785,7 +785,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6346364948419965012, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6346364948419965012, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_TagString
@@ -1345,7 +1345,7 @@ Transform:
   m_GameObject: {fileID: 355340757}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.82, y: 0.88, z: 0}
+  m_LocalPosition: {x: -28.76, y: 0.57, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1366,7 +1366,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.67
+  m_FalloffIntensity: 0.406
   m_Color: {r: 1, g: 0.8096381, b: 0.26981127, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -1385,8 +1385,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.06939983, y: -0.121799946, z: 0}
-    m_Extent: {x: 11.9271, y: 9.6415, z: 0}
+    m_Center: {x: 0.0692997, y: -0.12074995, z: 0}
+    m_Extent: {x: 8.4263, y: 6.14255, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1394,7 +1394,7 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 4.5
+  m_ShapeLightFalloffSize: 1
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -7.357994, y: -5.26239, z: 0}
@@ -1491,12 +1491,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].y
-      value: "\u0627\u06CC\u0646 \u0634\u0647\u0631... \u0686\u0647 \u0633\u0631\u062F
-        \u0648 \u062E\u0627\u0645\u0648\u0634 \u0627\u0633\u062A"
+      value: "\u0686\u0647 \u0642\u062F\u0631 \u0633\u0631\u062F \u0648 \u0628\u06CC
+        \u0631\u0648\u062D ..."
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].x
@@ -1504,8 +1504,8 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].y
-      value: "\u0646\u0647 \u0631\u0646\u06AF\u06CC \u062F\u0627\u0631\u062F \u0648
-        \u0646\u0647 \u0632\u0646\u062F\u06AF\u06CC"
+      value: "\u06CC\u0639\u0646\u06CC \u0686\u06CC \u0628\u0627\u0639\u062B \u0627\u06CC\u0646
+        \u0647\u0645\u0647 \u0633\u0631\u062F\u06CC \u0645\u06CC\u0634\u0647 !\u061F"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].x
@@ -1513,8 +1513,8 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].y
-      value: "\u0627\u0646\u06AF\u0627\u0631 \u0631\u0648\u062D \u0627\u0646\u0633\u0627\u0646\u200C\u0647\u0627
-        \u0631\u0627 \u0641\u0631\u0627\u0645\u0648\u0634 \u06A9\u0631\u062F\u0647\u200C\u0627\u0646\u062F"
+      value: "\u0628\u0627\u06CC\u062F \u0633\u0631\u06CC\u0639 \u062F\u0633\u062A
+        \u0631\u0648 \u067E\u06CC\u062F\u0627 \u06A9\u0646\u0645"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[3].x
@@ -1565,7 +1565,7 @@ Transform:
   m_GameObject: {fileID: 397560472}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 142.54, y: 5.59, z: 0}
+  m_LocalPosition: {x: 142.54, y: 5.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1586,7 +1586,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.67
+  m_FalloffIntensity: 0.406
   m_Color: {r: 1, g: 0.8096381, b: 0.26981127, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -1605,8 +1605,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 1.2061, y: -4.7151003, z: 0}
-    m_Extent: {x: 11.0131, y: 9.4892, z: 0}
+    m_Center: {x: 1.2061498, y: -4.7151, z: 0}
+    m_Extent: {x: 7.5120497, y: 5.9892, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -1614,7 +1614,7 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 4.5
+  m_ShapeLightFalloffSize: 1
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -5.307541, y: -9.703381, z: 0}
@@ -1716,12 +1716,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.size
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].y
-      value: "\u06A9\u0648\u0686\u0647\u200C\u0647\u0627 \u067E\u0631 \u0627\u0632
-        \u0633\u06A9\u0648\u062A \u0627\u0633\u062A..."
+      value: "\u062F\u0627\u0631\u0647 \u0633\u0631\u062F \u062A\u0631 \u0645\u06CC\u0634\u0647"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].x
@@ -1729,8 +1728,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].y
-      value: "\u0633\u06A9\u0648\u062A\u06CC \u06A9\u0647 \u0627\u0632 \u0641\u0631\u06CC\u0627\u062F\u0647\u0627\u06CC
-        \u062E\u0627\u0645\u0648\u0634 \u0633\u0627\u062E\u062A\u0647 \u0634\u062F\u0647"
+      value: "\u0686\u0631\u0627 !!\u061F"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].x
@@ -1738,9 +1736,8 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].y
-      value: "\u0647\u0631 \u062F\u06CC\u0648\u0627\u0631\u060C \u062D\u06A9\u0627\u06CC\u062A
-        \u062F\u0631\u062F \u06A9\u0633\u06CC \u0631\u0627 \u062F\u0631 \u062F\u0644
-        \u062F\u0627\u0631\u062F"
+      value: "\u0628\u0627\u06CC\u062F \u0632\u0648\u062F\u062A\u0631 \u062F\u0633\u062A
+        \u0631\u0648 \u067E\u06CC\u062F\u0627 \u06A9\u0646\u0645"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[3].x
@@ -2355,7 +2352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.size
-      value: 12
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].x
@@ -2363,26 +2360,23 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 516723c7fe900e844875a2fdcec47667, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].y
-      value: "\u0647\u06CC! \u067E\u0648\u0644 \u062F\u0627\u0631\u06CC\u061F! \u06CC\u0647
-        \u0686\u06CC\u0632\u06CC \u0628\u062F\u0647 \u0628\u0647\u0645!"
+      value: "\u0633\u0631\u062F\u0645\u0647 ..."
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].x
       value: 
-      objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
+      objectReference: {fileID: 21300000, guid: 516723c7fe900e844875a2fdcec47667, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].y
-      value: "\u0686\u0647\u061F! \u0686\u0647 \u06A9\u0633\u06CC \u0628\u0627 \u0645\u0646
-        \u0633\u062E\u0646 \u06AF\u0641\u062A\u061F"
+      value: "\u06AF\u0631\u0633\u0646\u0645\u0647 ..."
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].x
       value: 
-      objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
+      objectReference: {fileID: 21300000, guid: 516723c7fe900e844875a2fdcec47667, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].y
-      value: "\u062F\u0631 \u0627\u06CC\u0646 \u0633\u06A9\u0648\u062A \u0648 \u062A\u0627\u0631\u06CC\u06A9\u06CC...
-        \u0635\u062F\u0627\u06CC\u06CC \u0646\u0627\u06AF\u0647\u0627\u0646\u06CC!"
+      value: "\u06A9\u0645\u06A9\u0645 \u06A9\u0646"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[3].x
@@ -2390,28 +2384,25 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 516723c7fe900e844875a2fdcec47667, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[3].y
-      value: "\u062F\u0627\u062F\u0627\u0634... \u0633\u0647 \u0631\u0648\u0632\u0647
-        \u0686\u06CC\u0632\u06CC \u0646\u062E\u0648\u0631\u062F\u0645."
+      value: "\u0644\u0637\u0641\u0627"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[4].x
       value: 
-      objectReference: {fileID: 21300000, guid: 516723c7fe900e844875a2fdcec47667, type: 3}
+      objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[4].y
-      value: "\u06CC\u0647 \u06A9\u0645 \u067E\u0648\u0644 \u062F\u0627\u0631\u06CC\u061F
-        \u06CC\u0647 \u0644\u0642\u0645\u0647 \u0646\u0648\u0646\u0645 \u0628\u0627\u0634\u0647
-        \u06A9\u0627\u0641\u06CC\u0647"
+      value: "\u0627\u0648\u0644 \u0628\u0627\u06CC\u062F \u0628\u0647 \u0627\u06CC\u0646
+        \u06A9\u0645\u06A9 \u06A9\u0646\u0645"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[5].x
       value: 
-      objectReference: {fileID: 21300000, guid: 516723c7fe900e844875a2fdcec47667, type: 3}
+      objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[5].y
-      value: "\u0628\u0628\u06CC\u0646 \u062D\u0627\u0644\u0645 \u0628\u062F\u0647...
-        \u0628\u0647 \u062E\u062F\u0627 \u062F\u06CC\u06AF\u0647 \u062C\u0648\u0646
-        \u0646\u062F\u0627\u0631\u0645."
+      value: "\u0628\u0639\u062F\u0634 \u0645\u06CC\u06AF\u0631\u062F\u0645 \u062F\u0646\u0628\u0627\u0644
+        \u062F\u0633\u062A"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[6].x
@@ -2736,7 +2727,7 @@ Transform:
   m_GameObject: {fileID: 666823665}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 117.23, y: 5.59, z: 0}
+  m_LocalPosition: {x: 117.23, y: 5.14, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2757,7 +2748,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.67
+  m_FalloffIntensity: 0.406
   m_Color: {r: 1, g: 0.8096381, b: 0.26981127, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -2776,8 +2767,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 1.2061, y: -4.7151003, z: 0}
-    m_Extent: {x: 11.0131, y: 9.4892, z: 0}
+    m_Center: {x: 1.2061498, y: -4.7151, z: 0}
+    m_Extent: {x: 7.5120497, y: 5.9892, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2785,7 +2776,7 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 4.5
+  m_ShapeLightFalloffSize: 1
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -5.307541, y: -9.703381, z: 0}
@@ -2823,7 +2814,7 @@ Transform:
   m_GameObject: {fileID: 710396852}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.1, y: 1.85, z: 0}
+  m_LocalPosition: {x: -11.4, y: 1.26, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2844,7 +2835,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.67
+  m_FalloffIntensity: 0.406
   m_Color: {r: 1, g: 0.8096381, b: 0.26981127, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -2863,8 +2854,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.04460001, y: -1.09025, z: 0}
-    m_Extent: {x: 9.4671, y: 9.39385, z: 0}
+    m_Center: {x: 0.04429984, y: -1.08975, z: 0}
+    m_Extent: {x: 5.9665003, y: 5.89445, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2872,7 +2863,7 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 4.5
+  m_ShapeLightFalloffSize: 1
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -4.922983, y: -5.9832406, z: 0}
@@ -2905,7 +2896,7 @@ Transform:
   m_GameObject: {fileID: 749212063}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.2, y: 5.59, z: 0}
+  m_LocalPosition: {x: 12.12, y: 4.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2926,7 +2917,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.67
+  m_FalloffIntensity: 0.406
   m_Color: {r: 1, g: 0.8096381, b: 0.26981127, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -2945,8 +2936,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.12674999, y: -4.7015505, z: 0}
-    m_Extent: {x: 12.06105, y: 9.15905, z: 0}
+    m_Center: {x: 0.044849873, y: -4.97745, z: 0}
+    m_Extent: {x: 10.79085, y: 5.93615, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -2954,11 +2945,11 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 4.5
+  m_ShapeLightFalloffSize: 1
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
-  - {x: -7.43492, y: -9.34758, z: 0}
-  - {x: 7.6876287, y: -9.361462, z: 0}
+  - {x: -9.747471, y: -9.34758, z: 0}
+  - {x: 9.837567, y: -9.914883, z: 0}
   - {x: 0.5, y: -0.068440914, z: 0}
   - {x: -0.5, y: -0.041371346, z: 0}
 --- !u!1 &788320610
@@ -2987,7 +2978,7 @@ Transform:
   m_GameObject: {fileID: 788320610}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 100.4, y: 5.59, z: 0}
+  m_LocalPosition: {x: 100.22, y: 4.78, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3008,7 +2999,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.67
+  m_FalloffIntensity: 0.406
   m_Color: {r: 1, g: 0.8096381, b: 0.26981127, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -3027,8 +3018,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 1.2061, y: -4.7151003, z: 0}
-    m_Extent: {x: 11.0131, y: 9.4892, z: 0}
+    m_Center: {x: 1.2061498, y: -4.7151, z: 0}
+    m_Extent: {x: 7.5120497, y: 5.9892, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -3036,7 +3027,7 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 4.5
+  m_ShapeLightFalloffSize: 1
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -5.307541, y: -9.703381, z: 0}
@@ -3094,7 +3085,7 @@ Transform:
   m_GameObject: {fileID: 831088690}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.99, y: -4.68, z: 0}
+  m_LocalPosition: {x: 6.23, y: -4.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3405,13 +3396,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].y
-      value: "\u0627\u06CC\u0646 \u067E\u0648\u0644 \u0631\u0627 \u06CC\u0627\u0641\u062A\u0645\u060C
-        \u0646\u0647 \u0628\u0631\u0627\u06CC \u062E\u0648\u062F\u0645\u060C \u06A9\u0647
-        \u0628\u0631\u0627\u06CC \u0631\u0647\u0627\u06CC\u06CC \u062A\u0648."
+      value: "\u0628\u0627\u06CC\u062F \u067E\u0648\u0644 \u0631\u0648 \u0628\u062F\u0645
+        \u0628\u0647\u0634 "
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].x
@@ -3419,10 +3409,9 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].y
-      value: "\u0628\u067E\u0630\u06CC\u0631\u0634\u0627\u0646... \u0634\u0627\u06CC\u062F
-        \u0627\u0646\u062F\u06A9 \u0628\u0627\u0634\u0646\u062F\u060C \u0627\u0645\u0627
-        \u0628\u0630\u0631 \u0627\u0645\u06CC\u062F \u062F\u0631 \u062F\u0644 \u062A\u0648
-        \u062E\u0648\u0627\u0647\u0646\u062F \u0634\u062F."
+      value: "\u0627\u0644\u0627\u0646 \u0627\u06CC\u0646 \u062A\u0646\u0647\u0627
+        \u0686\u06CC\u0632\u06CC\u0647 \u06A9\u0647 \u0645\u06CC\u062A\u0648\u0646\u0645
+        \u0628\u0647\u0634 \u06A9\u0645\u06A9 \u06A9\u0646\u0645"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].x
@@ -3430,10 +3419,9 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].y
-      value: "\u062F\u0631 \u0634\u0647\u0631\u06CC \u06A9\u0647 \u0647\u0645\u0647
-        \u0686\u06CC\u0632 \u0645\u0631\u062F\u0647 \u0627\u0633\u062A\u060C \u062A\u0648
-        \u0628\u0627\u06CC\u062F \u062F\u0648\u0628\u0627\u0631\u0647 \u0632\u0646\u062F\u06AF\u06CC
-        \u0631\u0627 \u0628\u0627\u0648\u0631 \u06A9\u0646\u06CC."
+      value: "\u062E\u06CC\u0644\u06CC \u06A9\u0645\u0647 \u0648\u0644\u06CC \u062A\u0646\u0647\u0627
+        \u0686\u06CC\u0632\u06CC\u0647 \u06A9\u0647 \u0627\u0644\u0627\u0646 \u062F\u0627\u0631\u0645
+        \u0648 \u0645\u06CC\u062A\u0648\u0646\u0645 \u0628\u0628\u062E\u0634\u0645"
       objectReference: {fileID: 0}
     - target: {fileID: 5292229931981236570, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: m_Name
@@ -4065,11 +4053,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5434016509787925802, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 55.739998
+      value: 48.24
       objectReference: {fileID: 0}
     - target: {fileID: 5434016509787925802, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.019
+      value: 5.83
       objectReference: {fileID: 0}
     - target: {fileID: 5434016509787925802, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4251,11 +4239,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5434016509787925802, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 81.62
+      value: 85.62
       objectReference: {fileID: 0}
     - target: {fileID: 5434016509787925802, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.18
+      value: 3.02
       objectReference: {fileID: 0}
     - target: {fileID: 5434016509787925802, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4412,7 +4400,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].x
@@ -4420,8 +4408,8 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].y
-      value: "\u0628\u0644\u062E\u0631\u0647 \u0631\u0646\u06AF\u06CC \u0628\u0647
-        \u0627\u06CC\u0646 \u0634\u0647\u0631 \u0627\u0645\u062F"
+      value: "\u0628\u0627\u0644\u0627\u062E\u0631\u0647 \u062F\u0633\u062A \u0631\u0648
+        \u067E\u06CC\u062F\u0627 \u06A9\u0631\u062F\u0645"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].x
@@ -4429,8 +4417,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].y
-      value: "\u062F\u0644\u06CC\u0644 \u0627\u0646 \u0647\u0645 \u06A9\u0645\u06A9
-        \u0628\u0647 \u0622\u0646 \u0645\u0631\u062F \u0628\u0648\u062F"
+      value: "\u0631\u0627\u0633\u062A\u06CC ..."
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].x
@@ -4438,10 +4425,8 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].y
-      value: "\u0627\u06A9\u0646\u0648\u0646 \u0645\u06CC\u062A\u0648\u0627\u0646\u0645
-        \u0627\u06CC\u0646 \u062F\u0633\u062A \u0631\u0627 \u0628\u0628\u0631\u0645
-        \u0648 \u0628\u062F\u0645 \u0628\u0647\u0634 \u062A\u0627 \u062F\u0633\u062A\u0634
-        \u062E\u0648\u0628 \u0628\u0634\u0647"
+      value: "\u0686\u0647 \u0642\u062F\u0631 \u0647\u0648\u0627 \u06AF\u0631\u0645
+        \u062A\u0631 \u0634\u062F"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[3].x
@@ -4449,10 +4434,9 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[3].y
-      value: "\u0627\u06A9\u0646\u0648\u0646 \u0645\u06CC\u062A\u0648\u0627\u0646\u0645
-        \u0627\u06CC\u0646 \u062F\u0633\u062A \u0631\u0627 \u0628\u0628\u0631\u0645
-        \u0648 \u0628\u062F\u0645 \u0628\u0647\u0634 \u062A\u0627 \u062F\u0633\u062A\u0634
-        \u062E\u0648\u0628 \u0628\u0634\u0647"
+      value: "\u06CC\u0639\u0646\u06CC \u0627\u06CC\u0646 \u0633\u0631\u0645\u0627
+        \u0628\u0647 \u062E\u0627\u0637\u0631 \u0646\u06CC\u0627\u0632\u0645\u0646\u062F
+        \u0628\u0648\u062F \u061F!!!"
       objectReference: {fileID: 0}
     - target: {fileID: 5292229931981236570, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: m_Name
@@ -4567,10 +4551,10 @@ PrefabInstance:
     - target: {fileID: 7253479696645819116, guid: 067c5b05298edad488a53b28f3610f85, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 76853a90f69603641a0d318c47ab73f7, type: 3}
+      objectReference: {fileID: 8300000, guid: 5cbbb4477985d2746980bb17efe34de1, type: 3}
     - target: {fileID: 8806148465377187746, guid: 067c5b05298edad488a53b28f3610f85, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.028664
+      value: -14.7
       objectReference: {fileID: 0}
     - target: {fileID: 8806148465377187746, guid: 067c5b05298edad488a53b28f3610f85, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5410,11 +5394,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5434016509787925802, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 107.76
+      value: 107.93
       objectReference: {fileID: 0}
     - target: {fileID: 5434016509787925802, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.02
+      value: 2.58
       objectReference: {fileID: 0}
     - target: {fileID: 5434016509787925802, guid: 72ff012ea47bbb54da7c5d32cb1493be, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5748,7 +5732,7 @@ Transform:
   m_GameObject: {fileID: 1576097345}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 36.42, y: 5.59, z: 0}
+  m_LocalPosition: {x: 36.42, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5769,7 +5753,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.67
+  m_FalloffIntensity: 0.406
   m_Color: {r: 1, g: 0.8096381, b: 0.26981127, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -5788,8 +5772,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 1.0391002, y: -4.4449, z: 0}
-    m_Extent: {x: 12.9793, y: 9.4457, z: 0}
+    m_Center: {x: 1.0388498, y: -4.4449, z: 0}
+    m_Extent: {x: 9.47865, y: 5.9457, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -5797,7 +5781,7 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 4.5
+  m_ShapeLightFalloffSize: 1
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -7.4417553, y: -9.389615, z: 0}
@@ -5821,7 +5805,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1597576984
 Transform:
   m_ObjectHideFlags: 0
@@ -6640,7 +6624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.size
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].x
@@ -6648,9 +6632,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 516723c7fe900e844875a2fdcec47667, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].y
-      value: "\u0627\u06CC\u0646 \u067E\u0648\u0644 \u06A9\u0648\u0686\u06CC\u06A9\u0647
-        \u0648\u0644\u06CC \u06A9\u0644\u06CC \u0628\u0647\u0645 \u0627\u0645\u06CC\u062F
-        \u062F\u0627\u062F."
+      value: "\u0645\u0645\u0646\u0648\u0646"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].x
@@ -6658,10 +6640,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 516723c7fe900e844875a2fdcec47667, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].y
-      value: "\u06CC\u0647 \u0686\u06CC\u0632\u06CC \u067E\u06CC\u062F\u0627 \u06A9\u0631\u062F\u0645\u2026
-        \u062F\u0633\u062A \u0645\u0635\u0646\u0648\u0639\u06CC\u0647. \u0645\u0627\u0644
-        \u0645\u0646 \u0646\u06CC\u0633\u062A\u060C \u0641\u0642\u0637 \u067E\u06CC\u062F\u0627\u0634
-        \u06A9\u0631\u062F\u0645."
+      value: "\u062E\u06CC\u0644\u06CC \u0645\u0645\u0646\u0648\u0646"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].x
@@ -6669,9 +6648,32 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 516723c7fe900e844875a2fdcec47667, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].y
-      value: "\u0645\u06CC\u200C\u062E\u0648\u0627\u0645 \u0628\u0647 \u062A\u0648
-        \u0628\u062F\u0645\u060C \u0634\u0627\u06CC\u062F \u06CC\u0647 \u0631\u0648\u0632
-        \u0628\u0647 \u06A9\u0627\u0631\u062A \u0628\u06CC\u0627\u062F."
+      value: "\u062D\u062F\u0627\u0642\u0644 \u0627\u0645\u0634\u0628 \u062F\u06CC\u06AF\u0647
+        \u06AF\u0631\u0633\u0646\u0647 \u0646\u0645\u06CC\u062E\u0648\u0627\u0628\u0645"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
+      propertyPath: dialogue.Array.data[3].x
+      value: 
+      objectReference: {fileID: 21300000, guid: 516723c7fe900e844875a2fdcec47667, type: 3}
+    - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
+      propertyPath: dialogue.Array.data[3].y
+      value: "\u0631\u0627\u0633\u062A\u06CC ..."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
+      propertyPath: dialogue.Array.data[4].x
+      value: 
+      objectReference: {fileID: 21300000, guid: 516723c7fe900e844875a2fdcec47667, type: 3}
+    - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
+      propertyPath: dialogue.Array.data[4].y
+      value: "\u06CC\u0647 \u0686\u06CC\u0632\u06CC \u067E\u06CC\u062F\u0627 \u06A9\u0631\u062F\u0645"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
+      propertyPath: dialogue.Array.data[5].x
+      value: 
+      objectReference: {fileID: 21300000, guid: 516723c7fe900e844875a2fdcec47667, type: 3}
+    - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
+      propertyPath: dialogue.Array.data[5].y
+      value: "\u0634\u0627\u06CC\u062F \u0628\u062F\u0631\u062F\u062A \u0628\u062E\u0648\u0631\u0647"
       objectReference: {fileID: 0}
     - target: {fileID: 5292229931981236570, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: m_Name
@@ -6895,7 +6897,7 @@ Transform:
   m_GameObject: {fileID: 2066702039}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 76.15, y: 5.59, z: 0}
+  m_LocalPosition: {x: 76.15, y: 4.92, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6916,7 +6918,7 @@ MonoBehaviour:
   m_ComponentVersion: 1
   m_LightType: 1
   m_BlendStyleIndex: 0
-  m_FalloffIntensity: 0.67
+  m_FalloffIntensity: 0.406
   m_Color: {r: 1, g: 0.8096381, b: 0.26981127, a: 1}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
@@ -6935,8 +6937,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 1.2061, y: -4.7151003, z: 0}
-    m_Extent: {x: 11.0131, y: 9.4892, z: 0}
+    m_Center: {x: 1.2061498, y: -4.7151, z: 0}
+    m_Extent: {x: 7.5120497, y: 5.9892, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -6944,7 +6946,7 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 4.5
+  m_ShapeLightFalloffSize: 1
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
   - {x: -5.307541, y: -9.703381, z: 0}
@@ -7223,6 +7225,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: -301749293
       objectReference: {fileID: 0}
+    - target: {fileID: 4455051104774582267, guid: 61dbc5bf45b3dd340a44b0e15f73df17, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9dfc825aed78fcd4ba02077103263b40, type: 2}
     - target: {fileID: 6578103442334679455, guid: 61dbc5bf45b3dd340a44b0e15f73df17, type: 3}
       propertyPath: Loop
       value: 1
@@ -7230,6 +7236,10 @@ PrefabInstance:
     - target: {fileID: 6578103442334679455, guid: 61dbc5bf45b3dd340a44b0e15f73df17, type: 3}
       propertyPath: m_Volume
       value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6578103442334679455, guid: 61dbc5bf45b3dd340a44b0e15f73df17, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8615919120638488864, guid: 61dbc5bf45b3dd340a44b0e15f73df17, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
