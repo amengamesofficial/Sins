@@ -2684,15 +2684,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4601504474623722388, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: m_text
-      value: "\uFEA9\uFEB3\uFE96"
+      value: "\u061F"
       objectReference: {fileID: 0}
     - target: {fileID: 4601504474623722388, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: originalText
-      value: "\u062F\u0633\u062A"
+      value: "\u061F"
       objectReference: {fileID: 0}
     - target: {fileID: 4601504474623722388, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4894349927860551140, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3565,15 +3565,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4601504474623722388, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: m_text
-      value: "\uFB58\uFE8E\n"
+      value: "\u061F"
       objectReference: {fileID: 0}
     - target: {fileID: 4601504474623722388, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: originalText
-      value: "\u067E\u0627\n"
+      value: "\u061F"
       objectReference: {fileID: 0}
     - target: {fileID: 4601504474623722388, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: m_isRightToLeft
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4894349927860551140, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7224,11 +7224,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4601504474623722388, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: m_text
-      value: "\uFEB7\uFB91\uFEE2"
+      value: "\u061F"
       objectReference: {fileID: 0}
     - target: {fileID: 4601504474623722388, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: originalText
-      value: "\u0634\u06A9\u0645"
+      value: "\u061F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601504474623722388, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4894349927860551140, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7843,7 +7847,7 @@ Transform:
   m_GameObject: {fileID: 2086848552}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 8.7, y: -0.58, z: 0}
+  m_LocalPosition: {x: 5.9, y: -0.58, z: 0}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.68887}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8272,7 +8276,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7202337693378866453, guid: 1cfe84a688aa8d247acc2e00b7286ad4, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7936320346955323866, guid: 1cfe84a688aa8d247acc2e00b7286ad4, type: 3}
       propertyPath: target
@@ -8410,6 +8414,18 @@ PrefabInstance:
     - target: {fileID: 4599695121031528765, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: DoorsManagement, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601504474623722388, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
+      propertyPath: m_text
+      value: "\u061F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601504474623722388, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
+      propertyPath: originalText
+      value: "\u061F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4601504474623722388, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
+      propertyPath: m_isRightToLeft
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4894349927860551140, guid: dfd3cb1a62f6f774da482c1b6eb81029, type: 3}
       propertyPath: m_LocalPosition.x

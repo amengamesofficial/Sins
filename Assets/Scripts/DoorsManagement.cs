@@ -194,10 +194,12 @@ public class DoorsManagement : MonoBehaviour
     void MainSceneManager()
     {
         if (!eyedooropen) FirstDialog.SetActive(true);
+        else FirstDialog.SetActive(false);
         if (eyedooropen && !handdooropen) AfterEyeDialog.SetActive(true);
         if (handdooropen && !footdooropen) AfterHandDialog.SetActive(true);
         if (footdooropen && !bellydooropen) AfterFootDialog.SetActive(true);
         if (bellydooropen) AfterBellyDialog.SetActive(true);
+        
         
     }
 
