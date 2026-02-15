@@ -473,11 +473,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2948984624412544403, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2948984624412544403, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3308473624826934737, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -497,11 +497,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3634043683640963367, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3634043683640963367, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4039570835707504009, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -543,6 +543,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5405450959815504430, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
+      propertyPath: dashTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5405450959815504430, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
+      propertyPath: dashSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5405450959815504430, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
+      propertyPath: dashCooldown
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551108747658132720, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
+      propertyPath: m_Delegates.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6551108747658132720, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DashButton
+      objectReference: {fileID: 0}
     - target: {fileID: 6820261149136592685, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -565,7 +585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6996607505892110038, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7325450292653402014, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
       propertyPath: m_AnchorMax.y

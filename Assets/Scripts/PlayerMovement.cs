@@ -30,6 +30,13 @@ public class PlayerMovement : MonoBehaviour
     public bool isGuardBroken = false;
     public float guardBreakDuration = 2f;
 
+    [Header("Dash Settings")]
+    public float dashSpeed = 20f;
+    public float dashTime = 0.2f;
+    public float dashCooldown = 1f;
+    private bool canDash = true;
+    private bool isDashing = false;
+
     void Awake()
     {
         instance = this;
@@ -54,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (isDead || isGuardBroken) return;
+        if (isDead || isGuardBroken|| isDashing) return;
         Move();
     }
 
@@ -132,11 +139,42 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void FastMoveMent()
+    public void DashButton() 
     {
-        if (PlayerBreathBar.instance.BreathBar.value > 0)
-            isRun = !isRun;
+       
+        if (isAttacking || isDead || !canDash || PlayerBreathBar.instance.BreathBar.value < 5f) return;
+
+        StartCoroutine(PerformDash());
     }
+
+    IEnumerator PerformDash()
+{
+    canDash = false;
+    isDashing = true;
+    
+    PlayerBreathBar.instance.BreathBar.value -= 5;
+
+    float originalGravity = rb.gravityScale;
+    rb.gravityScale = 0f;
+
+    float dashDirection = Mathf.Sign(transform.localScale.x);
+    // اعمال سرعت
+    rb.velocity = new Vector2(dashDirection * dashSpeed, 0f);
+
+    animator.SetBool("isDash", true); 
+
+    yield return new WaitForSeconds(dashTime);
+
+    // پایان جابه‌جایی
+    rb.gravityScale = originalGravity;
+    rb.velocity = Vector2.zero; 
+    animator.SetBool("isDash", false);
+    isDashing = false;
+    canDash = true;
+}
+
+    
+    
 
     public void StopFastMoveMent()
     {
