@@ -30,6 +30,7 @@ TagManager:
   - Lightning
   - Sowrd
   - Ground
+  - Hesadat
   layers:
   - Default
   - TransparentFX

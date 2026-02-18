@@ -1494,6 +1494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hesadat
       objectReference: {fileID: 0}
+    - target: {fileID: 4570959136814859440, guid: 188efafbfc5060347bbcd229a0210d59, type: 3}
+      propertyPath: m_TagString
+      value: Hesadat
+      objectReference: {fileID: 0}
     - target: {fileID: 6580406453001758934, guid: 188efafbfc5060347bbcd229a0210d59, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.74
