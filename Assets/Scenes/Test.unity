@@ -555,6 +555,10 @@ PrefabInstance:
       propertyPath: dashCooldown
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5700318223182549302, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HeavyAttackButton
+      objectReference: {fileID: 0}
     - target: {fileID: 6551108747658132720, guid: af4b6f43294fcbd48a0157bcb82efa3e, type: 3}
       propertyPath: m_Delegates.Array.size
       value: 1

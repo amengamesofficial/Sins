@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     bool isRun = false;
     public float attackDuration = 0.5f;
     int currentAttack = 1;
+    int currentHeavyAttack = 4;
     public bool isInCutscene = false;
     public GameObject CameraShaking;
     public GameObject HitEffect;
@@ -64,6 +65,7 @@ public class PlayerMovement : MonoBehaviour
         if (isDead || isGuardBroken|| isDashing) return;
         Move();
     }
+
 
     void Move()
     {
@@ -158,14 +160,14 @@ public class PlayerMovement : MonoBehaviour
     rb.gravityScale = 0f;
 
     float dashDirection = Mathf.Sign(transform.localScale.x);
-    // اعمال سرعت
+    
     rb.velocity = new Vector2(dashDirection * dashSpeed, 0f);
 
     animator.SetBool("isDash", true); 
 
     yield return new WaitForSeconds(dashTime);
 
-    // پایان جابه‌جایی
+    
     rb.gravityScale = originalGravity;
     rb.velocity = Vector2.zero; 
     animator.SetBool("isDash", false);
@@ -206,7 +208,7 @@ public class PlayerMovement : MonoBehaviour
 
         while (isAttacking)
         {
-            PlayerBreathBar.instance.BreathBar.value -= 1; // کم شدن 2 واحد به ازای هر اتک
+            PlayerBreathBar.instance.BreathBar.value -= 1; 
             comboRequested = false;
             GetComponent<TakeDamage>().StartAttack();
             animator.SetInteger("AttackMode", currentAttack);
@@ -231,6 +233,60 @@ public class PlayerMovement : MonoBehaviour
         }
 
         currentAttack = 1;
+        animator.SetInteger("AttackMode", 0);
+        animator.SetBool("isAttacking", false);
+    }
+
+     public void HeavyAttackButton()
+    {
+        if (isDead || isDefend || isGuardBroken) return;
+
+        if (PlayerBreathBar.instance.BreathBar.value >= 1)
+        {
+            if (isAttacking)
+            {
+                comboRequested = true;
+            }
+            else
+            {
+                StartCoroutine(HeavyAttack());
+            }
+        }
+    }
+
+    IEnumerator HeavyAttack()
+    {
+        isAttacking = true;
+        animator.SetBool("isAttacking", true);
+             currentHeavyAttack = 4;
+
+        while (isAttacking)
+        {
+            PlayerBreathBar.instance.BreathBar.value -= 4; 
+            comboRequested = false;
+            GetComponent<TakeDamage>().StartAttack();
+            animator.SetInteger("AttackMode", currentHeavyAttack);
+            rb.velocity = Vector2.zero;
+
+            float timer = 0;
+
+            while (timer < attackDuration)
+            {
+                timer += Time.deltaTime;
+                yield return null;
+            }
+
+            if (comboRequested && currentHeavyAttack < 6 && PlayerBreathBar.instance.BreathBar.value >= 4)
+            {
+                currentHeavyAttack++;
+            }
+            else
+            {
+                isAttacking = false;
+            }
+        }
+
+        currentHeavyAttack = 4;
         animator.SetInteger("AttackMode", 0);
         animator.SetBool("isAttacking", false);
     }
