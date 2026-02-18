@@ -238,7 +238,7 @@ public class LabPuzzle : MonoBehaviour
             mainDrug.enabled = true;
             drugObject.color = Color.white;
             speak2.SetActive(true);
-            yield return new WaitForSeconds(6);
+            yield return new WaitForSeconds(4);
             speak2.SetActive(false);
             playerUI.SetActive(true);
             drugIcon.enabled = true;
@@ -250,7 +250,7 @@ public class LabPuzzle : MonoBehaviour
         {
             returnButton.SetActive(false);
             speak1.SetActive(true);
-            yield return new WaitForSeconds(4);
+            yield return new WaitForSeconds(2);
             foreach (var slot in slots)
             {
 

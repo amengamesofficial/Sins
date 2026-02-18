@@ -3298,11 +3298,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[0].y
-      value: "\u06A9\u0644\u06CC\u062F \u0631\u0627 \u0628\u062F\u0633\u062A \u0627\u0648\u0631\u062F\u0645"
+      value: "\u0628\u0627\u0644\u0627\u062E\u0631\u0647 \u067E\u06CC\u062F\u0627\u0634
+        \u06A9\u0631\u062F\u0645"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].x
@@ -3310,9 +3311,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[1].y
-      value: "\u0627\u06A9\u0646\u0648\u0646 \u0628\u0627\u06CC\u062F \u0628\u0631\u0648\u0645
-        \u0648 \u067E\u0627\u0647\u0627\u06CC\u0634 \u0631\u0627 \u0628\u0627\u0632
-        \u06A9\u0646\u0645"
+      value: "\u06A9\u0644\u06CC\u062F \u0645\u0634\u06A9\u0644\u062A \u0622\u062F\u0645\u0627"
       objectReference: {fileID: 0}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].x
@@ -3320,9 +3319,17 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
     - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: dialogue.Array.data[2].y
-      value: "\u0628\u0647 \u0646\u0638\u0631 \u0628\u0627\u06CC\u062F \u0627\u0646
-        \u0631\u0627 \u062D\u0644 \u06A9\u0646\u0645 \u062A\u0627 \u06A9\u0644\u06CC\u062F
-        \u0631\u0627 \u062F\u0631\u06CC\u0627\u0641\u062A \u06A9\u0646\u0645."
+      value: "\u0647\u0645\u06CC\u0646 \u0642\u062F\u0631 \u0633\u0627\u062F\u0647
+        \u0628\u062F\u0633\u062A \u0645\u06CC\u0627\u062F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
+      propertyPath: dialogue.Array.data[3].x
+      value: 
+      objectReference: {fileID: 21300000, guid: eb2009c0f6b1efc48ab7495738cfcfbf, type: 3}
+    - target: {fileID: 3565787079631846269, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
+      propertyPath: dialogue.Array.data[3].y
+      value: "\u0641\u0642\u0637 \u0628\u0627\u06CC\u062F \u0631\u0627\u0647\u0634\u0648
+        \u0628\u0644\u062F \u0628\u0627\u0634\u0646"
       objectReference: {fileID: 0}
     - target: {fileID: 5292229931981236570, guid: c29f186934e4e044cb1c2483ce3a641a, type: 3}
       propertyPath: m_Name

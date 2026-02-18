@@ -1,5 +1,6 @@
-using UnityEngine;
+﻿using UnityEngine;
 using TMPro;
+using RTLTMPro;
 using System.Xml.Serialization;
 using System.Collections;
 using Unity.VisualScripting;
@@ -8,7 +9,7 @@ public class SafeLock : MonoBehaviour
 {
     public static SafeLock instance;
     [Header("UI References")]
-    public TMP_Text displayText;
+    public RTLTextMeshPro displayText;
 
     [Header("Settings")]
     public GameObject AngleUi;
@@ -17,7 +18,12 @@ public class SafeLock : MonoBehaviour
     public GameObject CheckingButton;
     public GameObject CloseButton;
     public GameObject OpenPadButton;
+    public GameObject puzzleGuide;
+    public CircleCollider2D circleCollider;
+
     
+
+
 
     public string correctCode = "123";
 
@@ -47,13 +53,16 @@ public class SafeLock : MonoBehaviour
     {
         if (currentInput == correctCode)
         {
-            displayText.text = "OPEN";
+           displayText.text = "صحیح";
+           puzzleGuide.SetActive(false);
+           circleCollider.enabled = false; 
            StartCoroutine(AfterCorrectCode());
 
         }
         else
         {
-            displayText.text = "ERROR";
+            displayText.text = "خطا";
+            
             Invoke(nameof(ClearInput), 1.5f);
         }
     }
@@ -63,6 +72,7 @@ public class SafeLock : MonoBehaviour
         ClearButton.SetActive(false);
         CheckingButton.SetActive(false);
         CloseButton.SetActive(false);
+        
 
         yield return new WaitForSeconds(1.5f);
         ClosePad();
