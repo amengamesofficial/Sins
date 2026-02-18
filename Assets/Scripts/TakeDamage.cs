@@ -39,6 +39,14 @@ public class TakeDamage : MonoBehaviour
                 BadSelfController.instance.Hit();
                 hasAppliedDamage = true;
             }
+            else if (collision.gameObject.tag == "Hesadat")
+            {
+                EnemyHealthBar.instance.Health.value -= 2.5f;
+                HesadatController.instance.Hit();
+                hasAppliedDamage = true;
+            }
+
+        
         }
     }
 

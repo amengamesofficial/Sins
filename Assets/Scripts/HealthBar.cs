@@ -29,6 +29,12 @@ public class EnemyHealthBar : MonoBehaviour
             Health.minValue = 0;
             Health.maxValue = 40;
         }
+
+        else if (gameObject.tag == "Hesadat")
+        {
+            Health.minValue = 0;
+            Health.maxValue = 10;
+        }
         
     }
 

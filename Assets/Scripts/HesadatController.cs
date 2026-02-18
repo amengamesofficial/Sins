@@ -8,8 +8,8 @@ public class HesadatController : MonoBehaviour
     [Header("References")]
     public Transform player;
  
-    GameObject HitEffect;
-    GameObject CameraShake;
+   public GameObject HitEffect;
+    public GameObject CameraShake;
 
     [Header("Settings")]
     public float detectRange = 10f;
