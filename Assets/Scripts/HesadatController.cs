@@ -32,8 +32,7 @@ public class HesadatController : MonoBehaviour
 
     void Start()
     {
-        CameraShake = GameObject.Find("HesadatCameraShake");
-        HitEffect = GameObject.Find("HesadatHitEffect");
+        
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }

@@ -133,7 +133,7 @@ public class PlayerMovement : MonoBehaviour
             {
                 if (PlayerBreathBar.instance.BreathBar.value < PlayerBreathBar.instance.BreathBar.maxValue)
                 {
-                    PlayerBreathBar.instance.BreathBar.value += 2f * Time.deltaTime;
+                    PlayerBreathBar.instance.BreathBar.value += 5f * Time.deltaTime;
                 }
             }
 
